@@ -5,7 +5,9 @@ import re
 def search_rentals_with_breweries(zipcode, max_price):
     # Zillow URL for rental search
     url = f'https://www.zillow.com/homes/for_rent/{zipcode}_rb/1_p/'
-
+    
+    # test commit for github initialization
+    
     # Custom User-Agent header
     headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36','Accept-Language':'en-US,en;q=0.9',
     'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','Accept-Encoding':'gzip, deflate, br',
